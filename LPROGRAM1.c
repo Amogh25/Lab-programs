@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-void main( )
+int main( )
 {
 float a, b, c, disc, root1, root2, real, imag;
 printf("Enter a,b,c values \n");
@@ -36,4 +36,5 @@ imag=sqrt(fabs(disc))/(2*a);
 printf ("Root1=%f + i %f \n", real, imag);
 printf ("Root2=%f - i %f \n", real, imag);
 }
+return 0;
 }
